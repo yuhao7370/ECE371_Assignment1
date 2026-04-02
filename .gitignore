@@ -1,8 +1,43 @@
-UCMerced_LandUse/*
-UCMerced_LandUse.zip
-ECE371_Assignment1*
-*.pdf
-output/*
-scripts/*
-tmp/*
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Generated data and experiment artifacts
+data/
+output/
+tmp/
+work_dirs/
+checkpoints/
+results/
+logs/
+
+# Assignment brief and planning notes
+assignment_brief/
+
+# LaTeX build artifacts
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.fdb_latexmk
+report/*.fls
+report/*.lof
+report/*.log
+report/*.lot
+report/*.nav
+report/*.out
+report/*.snm
+report/*.synctex.gz
+report/*.toc
+report/*.vrb
+report/report.pdf
+report/texput.log
